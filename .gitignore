@@ -1,0 +1,14 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.ncb
+*.pdb
+*.obj
+*.exe
+*.dll
+bin/
+obj/
+TestResults/
