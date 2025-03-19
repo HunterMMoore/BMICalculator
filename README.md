@@ -5,12 +5,7 @@ This is a C# console application that calculates Body Mass Index (BMI) based on 
 
 ## Features
 - Accepts height (feet & inches) and weight (lbs) as input.
-- Computes BMI using the formula:
-
-  \[
-  BMI = \frac{\text{weight (lbs)} \times 703}{\text{height (in inches)}^2}
-  \]
-
+- Computes BMI 
 - Rounds BMI to one decimal place.
 - Categorizes BMI as:
   - **Underweight**: BMI < 18.5
@@ -25,14 +20,11 @@ This is a C# console application that calculates Body Mass Index (BMI) based on 
 - **.NET SDK 8.0+**  
   - Download from: [https://dotnet.microsoft.com/en-us/download](https://dotnet.microsoft.com/en-us/download)
   - Verify installation:  
-    ```sh
     dotnet --version
-    ```
 - **Git** (for cloning repository)  
   - Download from: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 ### **Clone the Repository and Run the Project**
-```sh
 # Clone the GitHub repository
 git clone https://github.com/HunterMMoore/BMICalculator.git
 cd BMICalculator
@@ -44,9 +36,6 @@ dotnet build
 dotnet run --project BMICalculator
 Example Output:
 
-mathematica
-Copy
-Edit
 BMI Calculator
 Enter height (feet): 5
 Enter height (inches): 9
@@ -55,9 +44,8 @@ Your BMI: 23.6
 Category: Normal weight
 
 Press Enter to exit...
-Run Unit Tests
-sh
-Copy
-Edit
+
+# Run Unit Tests
 dotnet test
+
 All tests should pass, including boundary cases.
