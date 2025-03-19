@@ -45,6 +45,11 @@ Category: Normal weight
 
 Press Enter to exit...
 
+# Or Download the .exe file 
+
+Download link
+https://github.com/HunterMMoore/BMICalculator/releases/tag/v1.0
+
 # Run Unit Tests
 dotnet test
 
